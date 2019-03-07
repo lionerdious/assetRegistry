@@ -1,4 +1,3 @@
 com/springboot/init/Application.class
-com/springboot/users/Entity/users.class
-com/springboot/init/BaseEntity.class
 com/springboot/init/HelloController.class
+com/springboot/init/BaseEntity.class
