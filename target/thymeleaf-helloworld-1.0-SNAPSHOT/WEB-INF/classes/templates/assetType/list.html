@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" id="formu" name="formu" th:action="@{'/assettype/searchlist' }"  th:object="${AssetType}" class="form-inline">
+    <input  class="form-control" id="count" th:field="*{assetTypeName}" />
+    <select class="form-control" th:field="*{activeStatus}" >
+        <option value="">Select Active Status</option>
+        <option value="true">True</option>
+        <option value="false">False</option>
+    </select>
+    <button type="submit" class="btn btn-success">Search</button>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th> Name</th>
+            <th>Active Status</th>
+        </tr>
+        <tr data-th-each="assetType : ${assetTypes}">
+            <td data-th-text="${assetType.asset_id}"></td>
+            <td data-th-text="${assetType.assetTypeName}"></td>
+            <td data-th-text="${assetType.activeStatus}"></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
