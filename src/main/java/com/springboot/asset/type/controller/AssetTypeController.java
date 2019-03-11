@@ -28,8 +28,8 @@ public class AssetTypeController {
     public String searchAssetTypes(Model model,@ModelAttribute AssetType assetType){
 
         if (assetType.getActiveStatus() != null &  assetType.getAssetTypeName() != null){
-            AssetType assetType =  assetTypeService.findByAssetTypeNameAndActiveStatus(assetType.getAssetTypeName(),assetType.getActiveStatus());
-            model.addAttribute("assetTypes",assetType);
+            AssetType searchedAssetType =  assetTypeService.findByAssetTypeNameAndActiveStatus(assetType.getAssetTypeName(),assetType.getActiveStatus());
+            model.addAttribute("assetTypes",searchedAssetType);
             return "assetType/list";
         }
         return "assetType/list";
