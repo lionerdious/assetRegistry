@@ -32,8 +32,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
     
-    private final String USERS_QUERY = "select email, password, active from user where email";
-    private final String ROLES_QUERY = "select u.email, r.role from user u inner join user_role ur on (u.id = ur.user_id) inner join role r on (ur.role_id = r.role_id) wherr u.email=?";
+    private final String USERS_QUERY = "select email, password, active from user where email=?";
+    private final String ROLES_QUERY = "select u.email, r.role from user u inner join user_role ur on (u.id = ur.user_id) inner join role r on (ur.role_id = r.role_id) where u.email=?";
     
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception{
