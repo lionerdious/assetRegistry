@@ -1,9 +1,9 @@
-/home/lionel/Development/thymeleaf/src/main/java/com/springboot/asset/type/controller/AssetTypeController.java
 /home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/Application.java
-/home/lionel/Development/thymeleaf/src/main/java/com/springboot/asset/type/dao/AssetTypeDao.java
-/home/lionel/Development/thymeleaf/src/main/java/com/springboot/asset/type/service/AssetTypeService.java
+/home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/asset/type/service/AssetTypeService.java
 /home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/HelloController.java
 /home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/WebConfig.java
+/home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/asset/type/controller/AssetTypeController.java
 /home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/BaseEntity.java
-/home/lionel/Development/thymeleaf/src/main/java/com/springboot/asset/type/entity/AssetType.java
-/home/lionel/Development/thymeleaf/src/main/java/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.java
+/home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/asset/type/dao/AssetTypeDao.java
+/home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/asset/type/entity/AssetType.java
+/home/lionel/Development/thymeleaf/src/main/java/com/springboot/init/asset/type/service/impl/AssetTypeServiceImpl.java

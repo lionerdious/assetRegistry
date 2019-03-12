@@ -1,8 +1,8 @@
 com/springboot/init/Application.class
-com/springboot/asset/type/service/AssetTypeService.class
+com/springboot/init/asset/type/entity/AssetType.class
 com/springboot/init/BaseEntity.class
-com/springboot/asset/type/service/impl/AssetTypeServiceImpl.class
-com/springboot/asset/type/entity/AssetType.class
+com/springboot/init/asset/type/controller/AssetTypeController.class
+com/springboot/init/asset/type/service/impl/AssetTypeServiceImpl.class
+com/springboot/init/asset/type/service/AssetTypeService.class
 com/springboot/init/HelloController.class
-com/springboot/asset/type/controller/AssetTypeController.class
-com/springboot/asset/type/dao/AssetTypeDao.class
+com/springboot/init/asset/type/dao/AssetTypeDao.class

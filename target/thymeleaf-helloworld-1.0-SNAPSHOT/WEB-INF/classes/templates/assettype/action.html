@@ -3,19 +3,19 @@
 <head lang="en" th:replace="head :: head"> </head>
 <body>
 <div class="wrapper">
-    <div th:replace ="sidebar::sidebar"></div>
     <div id="content">
-
-        <div th:replace ="navheader::navheader"></div>
         <h2>Pdf Outputs upload</h2>
         <div class="line"></div>
         <div id="msg"></div>
 
         <!-- Content Start Here -->
-        <form action="#" th:action="@{/assettype/assettypeform}" th:object="${assetType}" method="post" enctype="multipart/form-data">
+        <form action="#" th:action="@{/assettype/assettypeform}" th:object="${assetType}" method="post">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6" align="right">Name</div>
-                <div class="col-lg-6 col-md-6 col-sm-6"><input type="text" class="form-control" th:field="*{assetTypeName}"  /><input type="hidden" class="form-control" th:field="*{id}"  /></div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <input type="text" class="form-control" th:field="*{assetTypeName}"  />
+                    <input type="hidden" class="form-control" th:field="*{asset_id}"  />
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6" align="right">Active</div>
