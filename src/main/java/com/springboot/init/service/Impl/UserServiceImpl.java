@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.springboot.init.service;
+package com.springboot.init.service.Impl;
 
 import com.springboot.init.repository.RoleRepository;
 import com.springboot.init.repository.UserRepository;
+import com.springboot.init.service.UserService;
 import com.springboot.init.userModel.Role;
 import com.springboot.init.userModel.User;
 import java.util.Arrays;

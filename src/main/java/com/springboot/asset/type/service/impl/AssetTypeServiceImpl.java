@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class AssetTypeServiceImpl implements AssetTypeService {
@@ -16,12 +15,12 @@ public class AssetTypeServiceImpl implements AssetTypeService {
     private AssetTypeDao assetTypeDao;
 
     @Override
-    public AssetType findByAssetTypeName(String assetTypeName) {
+    public List<AssetType> findByAssetTypeName(String assetTypeName) {
         return assetTypeDao.findByAssetTypeName(assetTypeName);
     }
 
     @Override
-    public AssetType findByAssetTypeNameAndActiveStatus(String assetTypeName, Boolean activeStatus) {
+    public List<AssetType> findByAssetTypeNameAndActiveStatus(String assetTypeName, Boolean activeStatus) {
         return assetTypeDao.findByAssetTypeNameAndActiveStatus(assetTypeName,activeStatus);
     }
 

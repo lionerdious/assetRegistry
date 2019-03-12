@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <a th:href="@{'/assettype/action/0'}"><span class="glyphicon glyphicon-plus" title ="Add"></span></a>
+    </div>
+</div>
 <form method="get" id="formu" name="formu" th:action="@{'/assettype/searchlist' }"  th:object="${AssetType}" class="form-inline">
     <input  class="form-control" id="count" th:field="*{assetTypeName}" />
     <select class="form-control" th:field="*{activeStatus}" >
@@ -13,20 +18,18 @@
         <option value="false">False</option>
     </select>
     <button type="submit" class="btn btn-success">Search</button>
-
     <table>
         <tr>
-            <th>ID</th>
+            <th>Action</th>
             <th> Name</th>
             <th>Active Status</th>
         </tr>
         <tr data-th-each="assetType : ${assetTypes}">
-            <td data-th-text="${assetType.asset_id}"></td>
+            <td><a th:href="@{'/assettype/action/' + ${assetType.asset_id}}"><span class="glyphicon glyphicon-edit" title = "Edit"></span></a></td>
             <td data-th-text="${assetType.assetTypeName}"></td>
             <td data-th-text="${assetType.activeStatus}"></td>
         </tr>
     </table>
-
 </form>
 </body>
 </html>

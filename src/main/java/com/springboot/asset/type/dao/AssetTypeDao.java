@@ -8,8 +8,8 @@ import java.util.List;
 
 @Repository
 public interface AssetTypeDao extends JpaRepository<AssetType, Integer> {
-    public AssetType findByAssetTypeName(String assetTypeName);
-    public AssetType findByAssetTypeNameAndActiveStatus(String assetTypeName, Boolean activeStatus);
+    public List<AssetType> findByAssetTypeName(String assetTypeName);
+    public List<AssetType> findByAssetTypeNameAndActiveStatus(String assetTypeName, Boolean activeStatus);
     public List<AssetType> findByActiveStatus(Boolean activeStatus);
     public AssetType findById(int Id);
 }
