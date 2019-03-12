@@ -2,19 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e3ba70-1f61-49bb-bd6c-5a10cc3e79fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/controller/AssetTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/controller/AssetTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/dao/AssetTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/dao/AssetTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/service/AssetTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/service/AssetTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/init/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/init/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assetType/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assettype/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/init/service/Impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/controller/AssetTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/controller/AssetTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/dao/AssetTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/dao/AssetTypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/service/AssetTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/service/AssetTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/configuration/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/configuration/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/userModel/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/init/userModel/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/assetType/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/errors/access_denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user/signup.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/controller/AssetTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/controller/AssetTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/dao/AssetTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/dao/AssetTypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/service/AssetTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/service/AssetTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/asset/type/service/impl/AssetTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/configuration/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/configuration/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/userModel/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/com/springboot/init/userModel/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/templates/assetType/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/templates/errors/access_denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/templates/home/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/templates/user/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thymeleaf-helloworld-1.0-SNAPSHOT/WEB-INF/classes/templates/user/signup.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,30 +56,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AssetType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/asset/type/entity/AssetType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssetTypeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/asset/type/controller/AssetTypeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AssetTypeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/asset/type/service/AssetTypeService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assettype/list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -132,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/security/api/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/security/api/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/security/api/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/entity/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/entity/AssetType.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/assetType/list.html" />
@@ -144,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/asset/type/controller/AssetTypeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/assettype/action.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/assettype/list.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -208,26 +223,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thymeleaf-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="type" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thymeleaf-helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="type" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thymeleaf-helloworld" type="b2602c69:ProjectViewProjectNode" />
@@ -356,12 +351,12 @@
       <workItem from="1551681543834" duration="7032000" />
       <workItem from="1551939756211" duration="6474000" />
       <workItem from="1552036288974" duration="89000" />
-      <workItem from="1552382058247" duration="2145000" />
+      <workItem from="1552382058247" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22782000" />
+    <option name="totallyTimeSpent" value="24098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="1869" height="1053" extended-state="6" />
@@ -612,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/init/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/users/Entity/users.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/security/api/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/security/api/config/SecurityConfig.java" />
@@ -630,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -729,10 +710,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/init/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assettype/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
